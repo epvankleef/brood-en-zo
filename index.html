@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home – Brood & Zo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header met logo en navigatie -->
+  <header class="header">
+    <p class="logo">Brood & Zo</p>
+    <nav class="menu">
+      <a href="index.html" class="menu-link actief">Home</a>
+      <a href="menukaart.html" class="menu-link">Menukaart</a>
+    </nav>
+  </header>
+
+  <!-- Hoofdinhoud -->
+  <main class="inhoud">
+
+    <!-- Introductie: links de tekst, rechts de foto -->
+    <section class="intro">
+
+      <div>
+        <h1>Welkom bij Brood & Zo</h1>
+        <p class="inleiding">
+          Bij Brood & Zo smeren we elke ochtend verse broodjes met lekkere, eerlijke ingrediënten.
+          Kom gezellig binnen voor een lunch, of neem je broodje mee voor onderweg.
+        </p>
+        <p class="inleiding">Benieuwd wat we maken? Bekijk onze <a href="menukaart.html">menukaart</a>.</p>
+
+        <!-- Openingstijden: de knop toont of verbergt dit blok (zie script.js) -->
+        <button type="button" id="openingstijden-knop" class="knop">Toon openingstijden</button>
+
+        <div id="openingstijden" class="openingstijden" hidden>
+          <h2>Openingstijden</h2>
+          <ul>
+            <li>Maandag t/m vrijdag: 08:00 – 16:00</li>
+            <li>Zaterdag: 09:00 – 15:00</li>
+            <li>Zondag: gesloten</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Afbeelding (foto: Jimi Filipovski, CC0, via Wikimedia Commons) -->
+      <img src="images/lunch.jpg" alt="Twee belegde sandwiches op een bord met bijgerechten" class="foto">
+
+    </section>
+
+  </main>
+
+  <!-- Footer met contactgegevens -->
+  <footer class="footer">
+    <p><strong>Brood & Zo</strong></p>
+    <p>Korenstraat 12, 1234 AB Broodstad</p>
+    <p>Telefoon: 012 345 6789</p>
+    <p>E-mail: info@broodenzo.nl</p>
+  </footer>
+
+  <!-- JavaScript voor de openingstijden-knop -->
+  <script src="script.js"></script>
+</body>
+</html>
